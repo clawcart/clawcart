@@ -1,0 +1,10 @@
+{
+  "name": "Electronics under $200",
+  "max_total_cents": 20000,
+  "currency": "usd",
+  "allowed_conditions": ["new"],
+  "blocked": ["used", "refurbished", "open_box"],
+  "free_returns_required": true,
+  "warranty_required": true,
+  "approval_required": true
+}

@@ -1,0 +1,15 @@
+{
+  "name": "@clawcart/policy-engine",
+  "version": "0.1.0",
+  "description": "Policy evaluation engine for ClawCart user-defined purchasing rules",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@clawcart/protocol": "workspace:*"
+  },
+  "license": "MIT"
+}

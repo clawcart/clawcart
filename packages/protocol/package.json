@@ -1,0 +1,11 @@
+{
+  "name": "@clawcart/protocol",
+  "version": "0.1.0",
+  "description": "Type definitions for the ClawCart agentic commerce protocol",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "@clawcart/sdk",
+  "version": "0.1.0",
+  "description": "TypeScript SDK client for the ClawCart agentic commerce gateway",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@clawcart/protocol": "workspace:*"
+  },
+  "license": "MIT"
+}

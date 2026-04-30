@@ -1,0 +1,17 @@
+{
+  "name": "@clawcart/cli",
+  "version": "0.1.0",
+  "description": "CLI for ClawCart merchant setup, scanning, and management",
+  "main": "src/index.ts",
+  "bin": {
+    "clawcart": "src/index.ts"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@clawcart/sdk": "workspace:*",
+    "@clawcart/protocol": "workspace:*"
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "Node16",
+    "moduleResolution": "Node16",
+    "lib": ["ES2022"],
+    "outDir": "dist",
+    "rootDir": ".",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "paths": {
+      "@clawcart/protocol": ["./packages/protocol/src"],
+      "@clawcart/policy-engine": ["./packages/policy-engine/src"],
+      "@clawcart/sdk": ["./packages/sdk/src"],
+      "@clawcart/mcp-server": ["./packages/mcp-server/src"],
+      "@clawcart/openclaw-plugin": ["./packages/openclaw-plugin/src"],
+      "@clawcart/openclaw-skill": ["./packages/openclaw-skill/src"]
+    }
+  },
+  "include": [
+    "apps/*/src/**/*.ts",
+    "packages/*/src/**/*.ts",
+    "tests/**/*.ts"
+  ],
+  "exclude": ["node_modules", "dist"]
+}

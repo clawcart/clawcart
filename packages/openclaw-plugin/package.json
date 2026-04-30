@@ -1,0 +1,13 @@
+{
+  "name": "@clawcart/openclaw-plugin",
+  "version": "0.1.0",
+  "description": "OpenClaw plugin for ClawCart agentic commerce",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@clawcart/mcp-server": "workspace:*"
+  },
+  "license": "MIT"
+}

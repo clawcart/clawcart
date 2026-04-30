@@ -1,0 +1,18 @@
+{
+  "name": "@clawcart/mcp-server",
+  "version": "0.1.0",
+  "description": "MCP bridge for exposing ClawCart commerce tools to OpenClaw and MCP-compatible runtimes",
+  "main": "src/index.ts",
+  "bin": {
+    "clawcart-mcp": "src/index.ts"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "tsx src/index.ts --stdio"
+  },
+  "dependencies": {
+    "@clawcart/sdk": "workspace:*",
+    "@clawcart/protocol": "workspace:*"
+  },
+  "license": "MIT"
+}

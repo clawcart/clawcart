@@ -1,0 +1,9 @@
+{
+  "name": "@clawcart/shopify-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "echo 'shopify app not yet implemented'",
+    "build": "echo 'build not yet implemented'"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Weekly groceries",
+  "max_total_cents": 8000,
+  "currency": "usd",
+  "allowed_merchants": ["approved_grocery_stores"],
+  "blocked_categories": ["alcohol", "tobacco", "lottery"],
+  "approval_required_above_cents": 2500,
+  "delivery_days_max": 1,
+  "substitutions": {
+    "allowed": true,
+    "max_price_delta_percent": 10
+  }
+}

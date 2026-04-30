@@ -1,0 +1,9 @@
+{
+  "name": "@clawcart/dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "echo 'dashboard not yet implemented'",
+    "build": "echo 'build not yet implemented'"
+  }
+}
